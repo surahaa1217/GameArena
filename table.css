@@ -1,0 +1,37 @@
+/* Styles for the table container */
+#table-container {
+    width: 100%;
+    max-width: 1200px; /* Set a max width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    text-align: center; /* Center-align the title text */
+    background-color: #f5f5f5; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Style for the table title */
+#table-container h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the iframe */
+#table-container iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    #table-container h2 {
+        font-size: 1.5em;
+    }
+
+    #table-container iframe {
+        height: 400px; /* Smaller height on mobile */
+    }
+}
