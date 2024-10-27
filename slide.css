@@ -266,6 +266,10 @@ section {
         display: none;
     }
 
+    .wrapper .logo {
+        display: none;
+    }
+
     #home-a .specials {
         grid-template-columns: repeat(1, 1fr);
    }
